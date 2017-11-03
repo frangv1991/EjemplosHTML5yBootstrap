@@ -1,14 +1,39 @@
 ﻿<!DOCTYPE html> 
 <html lang="es"> 
-  <head> 
-    <meta charset="utf-8"> 
-    <!–Con esto garantizamos que se vea bien en despositivos móviles–>
-    <meta name="viewpot" content="width=device-width, initial-scale=1">
-    <title>Mi primer proyecto con Booststrap</title>     
-  </head> 
-  <body> 
-    <h1>¡Hola mundo!</h1> 
-    <p> Hola a todos, mi primera web con Bootsrap ;(
-   </p>     
-  </body> 
+      <head> 
+            <meta charset="utf-8"> 
+        <!–Con esto garantizamos que se vea bien en despositivos móviles–>
+            <meta name="viewpot" content="width=device-width, initial-scale=1">
+            <title>Mi primer proyecto con Booststrap</title>    
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+          </head> 
+      <body>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                    1 of 3
+                </div>
+                <div class="col-md-auto">
+                    Variable width content
+                </div>
+                <div class="col col-lg-2">
+                    3 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    1 of 3
+                </div>
+                <div class="col-md-auto">
+                    Variable width content
+                </div>
+                <div class="col col-lg-2">
+                    3 of 3
+                </div>
+            </div>
+        </div>
+          </body> 
 </html>  

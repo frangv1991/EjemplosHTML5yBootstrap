@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-nov-2017, 9:41:13
+    Author     : frangv1991
+*/
+
+/*La prioridad va de menor a mayor descendentemente*/
+body {color:red;}           /*Menos prioritario que los de abajo*/
+h1 {color:#00ff00;}         /*Menos prioritario que los de abajo*/
+.ex {color:yellow;}         /*Menos prioritario que los de abajo*/
+p.ex {color:rgb(0,0,255);}  /*Menos prioritario que los de abajo*/
+#xe {color:#568374;}        /*El más prioritario*/
